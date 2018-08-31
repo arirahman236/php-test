@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V2</title>
+	
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form"  action = "submitregister.php" method="POST" class="probootstrap-form mb60">
+					<a class="logo  href="#"><img src="logo.png "></a>
+					
+					<div class="wrap-input100" >
+						<input type="text" class="form-control" id="username" name="username">
+						<span class="focus-input100" data-placeholder="Username"></span>
+					</div>
+
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
+						 <input type="text" class="form-control" id="email" name="email">
+						<span class="focus-input100" data-placeholder="Email"></span>
+					</div>
+					
+					<div class="wrap-input100" >
+						<input type="text" class="form-control" id="number" name="number">
+						<span class="focus-input100" data-placeholder="Telpon"></span>
+					</div>
+					
+					<div class="wrap-input100" >
+						<input class="input100" type="text" name="Gender">
+						<span class="focus-input100" data-placeholder="Gender"></span>
+						<tr>
+						<td>
+							<select name="jk">
+								<option value="L">LAKI-LAKI</option>
+								<option value="P">PEREMPUAN</option>
+							</select>
+						</td>
+					</tr>
+					</div>
+					
+					<div class="wrap-input100" >
+						<input class="input100" type="text" name="Tanggal Lahir">
+						<span class="focus-input100" data-placeholder="Tanggal Lahir"></span>
+						<td><input type="date" name="tglk"></td>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input type="password" class="form-control" id="password" name="password">
+						<span class="focus-input100" data-placeholder="Password"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input type="password" class="form-control" id="password" name="password">
+						<span class="focus-input100" data-placeholder="Confirm Password"></span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								 <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Submit">
+							</button>
+						</div>
+					</div>
+
+					<div class="text-center p-t-115">
+
+						<a class="txt2" href="index.php">
+							Back
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
